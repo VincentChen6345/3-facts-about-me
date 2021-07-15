@@ -1,0 +1,146 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  align-items: center;
+}
+
+body {
+  text-align: center;
+  font-family: arial;
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+  height: 100%;
+}
+/*change image size*/
+
+#image {
+  display: block;
+  width: 300px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*increase heading size, center heading*/
+h1 {
+  font-size: 50px;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+}
+
+/*resize buttons, center buttons, increase button font size, round button corners*/
+
+.modal-button1 {
+  margin-top: 40px;
+  font-size: 30px;
+  width: 15%;
+  height: 60px;
+  border-radius: 50px;
+  background-color: white;
+  font-weight: bold;
+  border: none;
+}
+.modal-button2 {
+  margin-top: 40px;
+  font-size: 30px;
+  width: 15%;
+  height: 60px;
+  border-radius: 50px;
+  background-color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.modal-button3 {
+  margin-top: 40px;
+  font-size: 30px;
+  width: 15%;
+  height: 60px;
+  border-radius: 50px;
+  background-color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.divider {
+  width: 50px;
+  height: auto;
+  display: inline-block;
+}
+/*give background gradient*/
+
+/*center all modal windows, give white background color*/
+.modal-sets {
+  font-size: 20px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 30px;
+  padding: 3rem;
+  width: 80%;
+  z-index: 10;
+}
+
+.close-modal1 {
+  font-size: 35px;
+  width: 40px;
+  border-radius: 50%;
+  position: absolute;
+  left: 95%;
+  top: 5%;
+  background-color: white;
+  border: none;
+}
+.close-modal2 {
+  font-size: 35px;
+  width: 40px;
+  border-radius: 50%;
+  position: absolute;
+  left: 95%;
+  top: 5%;
+  background-color: white;
+  border: none;
+}
+.close-modal3 {
+  font-size: 35px;
+  width: 40px;
+  border-radius: 50%;
+  position: absolute;
+  left: 95%;
+  top: 5%;
+  background-color: white;
+  border: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 109%;
+  background-repeat: repeat;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
